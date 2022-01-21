@@ -20,6 +20,12 @@ php flarum migrate
 php flarum cache:clear
 ```
 
+## Usage in the forum
+
+```bbcode
+[sketchfab] {link to the sketchfab model} [/sketchfab]
+```
+
 ## Links
 
 - [Packagist](https://packagist.org/packages/cadiducho/sketchfab)
