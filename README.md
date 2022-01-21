@@ -1,21 +1,21 @@
 # Sketchfab
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg) [![Latest Stable Version](https://img.shields.io/packagist/v/cadiducho/sketchfab.svg)](https://packagist.org/packages/cadiducho/sketchfab) [![Total Downloads](https://img.shields.io/packagist/dt/cadiducho/sketchfab.svg)](https://packagist.org/packages/cadiducho/sketchfab)
+![License](https://img.shields.io/badge/license-MIT-blue.svg) [![Latest Stable Version](https://img.shields.io/packagist/v/cadiducho/flarum-sketchfab.svg)](https://packagist.org/packages/cadiducho/flarum-sketchfab) [![Total Downloads](https://img.shields.io/packagist/dt/cadiducho/flarum-sketchfab.svg)](https://packagist.org/packages/cadiducho/flarum-sketchfab)
 
-A [Flarum](http://flarum.org) extension. Display Sketchfabs models in your forum
+A [Flarum](http://flarum.org) extension. Display Sketchfabs models in your Flarum forum
 
 ## Installation
 
 Install with composer:
 
 ```sh
-composer require cadiducho/sketchfab:"*"
+composer require cadiducho/flarum-sketchfab:"*"
 ```
 
 ## Updating
 
 ```sh
-composer update cadiducho/sketchfab:"*"
+composer update cadiducho/flarum-sketchfab:"*"
 php flarum migrate
 php flarum cache:clear
 ```
@@ -28,6 +28,6 @@ php flarum cache:clear
 
 ## Links
 
-- [Packagist](https://packagist.org/packages/cadiducho/sketchfab)
-- [GitHub](https://github.com/cadiducho/sketchfab)
+- [Packagist](https://packagist.org/packages/cadiducho/flarum-sketchfab)
+- [GitHub](https://github.com/cadiducho/flarum-sketchfab)
 - [Discuss](https://discuss.flarum.org/d/PUT_DISCUSS_SLUG_HERE)
