@@ -9,13 +9,13 @@ A [Flarum](http://flarum.org) extension. Display Sketchfabs models in your Flaru
 Install with composer:
 
 ```sh
-composer require cadiducho/flarum-sketchfab:"*"
+composer require cadiducho/flarum-sketchfab
 ```
 
 ## Updating
 
 ```sh
-composer update cadiducho/flarum-sketchfab:"*"
+composer update cadiducho/flarum-sketchfab
 php flarum migrate
 php flarum cache:clear
 ```
@@ -23,8 +23,9 @@ php flarum cache:clear
 ## Usage in the forum
 
 ```bbcode
-[sketchfab] {link to the sketchfab model} [/sketchfab]
+[sketchfab] {ID of the sketchfab model} [/sketchfab]
 ```
+You can obtain this id on the Sketchfab website, clicking on the "Embed" tab and checking "Use BBCode"
 
 ## Links
 
